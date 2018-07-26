@@ -15,6 +15,15 @@ h1 {
     font-weight: bold;
 }
 
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .banner {
     background: #ffffff;
     position: fixed;
@@ -25,7 +34,8 @@ h1 {
 }
 
 .banner-content {
-    width: 960px;
+    max-width: 960px;
+    min-width: 450px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
