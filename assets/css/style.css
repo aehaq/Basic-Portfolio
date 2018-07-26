@@ -1,0 +1,192 @@
+body {
+    margin: 0px 0px 0px 0px;
+    background-image: url("../images/what-the-hex/what-the-hex.png");
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner {
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 1px #cccccc solid; 
+}
+
+.banner-content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.name {
+    background: #4aaaa5;
+    color: white;
+    float: left;
+    padding:20px;
+}
+
+.page-links {
+    margin: 10px;
+    float: right;
+    height: 100%;
+}
+
+#about {
+    float: left;
+    vertical-align: middle;
+    margin: 14px 0px 14px 0px;
+    padding: 0px 14px 0px 14px;
+    border-right: 1px #cccccc solid;
+}
+
+#portfolio {
+    float: left;
+    vertical-align: middle;
+    margin: 14px 0px 14px 0px;
+    padding: 0px 14px 0px 14px;
+    border-right: 1px #cccccc solid;
+}
+
+#contact {
+    float: left;
+    vertical-align: middle;
+    margin: 14px 0px 14px 0px;
+    padding: 0px 14px 0px 14px;
+}
+
+.content-container {
+    box-sizing: border-box;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #ffffff;
+    border: 1px #cccccc solid; 
+    padding: 20px;
+}
+
+.content-head {
+    box-sizing: content-box;
+    width: 920px;
+    background: #ffffff;
+    color:#4aaaa5;
+    float: left;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 3px #cccccc solid;
+    margin-bottom: 20px;
+}
+
+#profilepic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.content-body {
+    line-height: 25px;
+}
+
+form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+input[type=text] {
+    width: 920px;
+    color: #777777;
+    padding: 8px 12px;
+    margin: 4px 0px 12px 0px;
+    box-sizing: border-box;
+}
+
+input[name=message] {
+    height: 200px;
+}
+
+input[type=submit] {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.portfolio-box {
+    margin-right: 60px;
+    margin-top: 20px;
+    height: 200px;
+    width:  250px;
+    overflow: hidden;
+   }
+
+#hangman {
+    background-image: url("../images/hangman.jpg");
+    float: left;
+}
+
+#rpg {
+    background-image: url("../images/rpg.jpg");
+    float: left;
+}
+
+#trivia {
+    background-image: url("../images/triv.jpg");
+    clear: both;
+    float: left;
+}
+
+#widget {
+    background-image: url("../images/widg.jpg");
+    float: left;
+}
+
+#rockpaperscissors {
+    background-image: url("../images/rps.jpg");
+    clear: both;
+}
+
+.portfolio-text {
+    width: 250px;
+    bottom: 10;
+    background: #4aaaa5;
+    color: white;
+    float: left;
+    padding:15px 0px 15px 0px;
+    margin-top: 140px;
+    text-align: center;
+    z-index: 1;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #666666;
+    border-top: 10px solid;
+    border-top-color:  #4aaaa5;
+    font-size: 10px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
